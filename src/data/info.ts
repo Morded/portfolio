@@ -1,26 +1,15 @@
 export const info = {
   baseUrl: "https://gaborjenei.vercel.app",
   name: "GÁBOR JENEI",
+  title: "Digital Craftsman ( Developer / Designer )",
   jobDescription: "App Developer",
-  about: `I took interest in some sort of programming
-    as a child. Started making my own websites
-    for what I felt passionate about, from Gaming
-    community websites to movie catalog
-    websites.
-    In my early 20s I took a more serious interest
-    in programming and wanted to do it as a
-    profession. I learned everything on my own
-    and got a job in the industry as a Junior
-    developer. Over the years I worked on all
-    kinds of projects and tried to acquired as
-    many skills as possible.
-
-    I love learning new things and I’m always
-    interested in new technologies.
-    I imagine myself in the future as either a front
-    end or a full stack developer  
-  `,
-
+  about: [
+    `As a child, I was already interested in programming and design. I created a website for almost anything that I liked to do at the time.
+    I Built a website for my Counter Strike 1.6 server, a(n il)legal movie watching site ... and the list goes on.
+    I taught myself how to code and I enjoy every aspect of it, from planning and designing all the way to solving real-life problems with code.
+    I am very passionate about learning new things and experimenting new technologies.
+    `
+  ],
   experience: [
     {
       name: "ION SO4EP kft.",

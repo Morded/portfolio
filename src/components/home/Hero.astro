@@ -1,13 +1,16 @@
 ---
 import { IHeroProps } from "../../../src/types";
 
-const { name, about } = Astro.props as IHeroProps;
+const { name, about, title } = Astro.props as IHeroProps;
 ---
 
 <section>
   <p class="dark:text-light mt-[117px]">Hello, I'm an app developer based in Hungary</p>
   <div class="flex justify-between items-center">
-    <h1 class="leading-[1.2]">{name}</h1>
+    <div>
+    <h1 class="leading-[1.2] font-extrabold">{name}</h1>
+    <p class="text-[#686868] font-bold -translate-y-8">{title}</p>
+    </div>
   <img
       src="/assets/images/portrait.jpeg"
       class="w-24 h-24 rounded-full border-2 border-green"
@@ -17,7 +20,11 @@ const { name, about } = Astro.props as IHeroProps;
     alt="Portfolio image"
   />
   </div>
-  <p class="dark:text-light text-lg mt-6 mb-16">
-    {about}
+  <div class="mt-6 mb-16">
+  {about.map(item => (
+  <p class="dark:text-light text-lg">
+    {item}
   </p>
+  ))}
+  </div>
 </section>

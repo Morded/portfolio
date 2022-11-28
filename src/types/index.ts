@@ -6,7 +6,8 @@ export interface IMetaHead {
 
 export interface IHeroProps {
   name: string;
-  about: string;
+  about: string[];
+  title: string;
 }
 
 export interface IExperience {
@@ -29,9 +30,11 @@ export interface IProject {
   thumbnail: string;
   githubUrl: string;
   liveUrl: string;
+  isBig?: boolean;
 }
 export interface IProjects {
   projects: IProject[];
+  isBig?: boolean;
 }
 
 export interface IProjectDetails {
