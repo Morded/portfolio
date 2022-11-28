@@ -1,0 +1,10 @@
+---
+import { ISkills } from "@types";
+import Skill from "./Skill.astro";
+
+const { skills } = Astro.props as IProjects;
+---
+
+<div class="flex justify-center flex-wrap gap-4 my-16 rounded-lg p-4 ml-2 bg-[#e7ded3] dark:bg-[#202020]">
+  {skills.map(skill => <Skill skillDetail={skill} />)}
+</div>

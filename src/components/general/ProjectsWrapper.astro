@@ -1,0 +1,10 @@
+---
+import { IProjects } from "@types";
+import ProjectCard from "./ProjectCard.astro";
+
+const { projects } = Astro.props as IProjects;
+---
+
+<div class="flex flex-row gap-4 my-16 flex-wrap justify-center">
+  {projects.map((project) => <ProjectCard projectDetail={project} />)}
+</div>

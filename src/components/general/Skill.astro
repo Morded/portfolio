@@ -1,0 +1,14 @@
+---
+import { ISkillDetails } from "@types";
+const { skillDetail } = Astro.props as ISkillDetails;
+const { name, icon } = skillDetail;
+---
+<div class="relative flex justify-center">
+  <img
+    src={icon}
+    class="w-auto h-10 saturate-0 hover:saturate-50 hover:scale-125 peer transition-all ease-in-out duration-300"
+    loading="lazy"
+    alt={name}
+  />
+  <p class="absolute text-white w-content whitespace-nowrap	bg-black p-2 mt-12 peer-hover:mt-16 text-center opacity-0 peer-hover:opacity-100 transition-all ease-in-out duration-300">{name}</p>
+</div>
