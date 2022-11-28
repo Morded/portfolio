@@ -64,28 +64,28 @@ export const info = {
     {
       title: "Morded Kanban",
       isFeatured: true,
-      thumbnail: "/assets/images/mordedkanban.png",
+      thumbnail: "../../public/assets/images/mordedkanban.png",
       githubUrl: "https://github.com/Morded/kanban",
       liveUrl: "https://morded-kanban.vercel.app/",
     },
     {
-      title: "What ToDO",
+      title: "What ToDo",
       isFeatured: true,
-      thumbnail: "/assets/images/tododark.png",
+      thumbnail: "../../public/assets/images/tododark-big.png",
       githubUrl: "https://github.com/Morded/whattodo",
       liveUrl: "https://whattodoornottodo.vercel.app/",
     },
     {
       title: "Guess the hex",
       isFeatured: true,
-      thumbnail: "/assets/images/guessthehex.png",
+      thumbnail: "../../public/assets/images/guessthehex.png",
       githubUrl: "https://github.com/Morded/guessthehex",
       liveUrl: "https://guess-thehex.vercel.app/",
     },
     {
       title: "Search for words",
       isFeatured: true,
-      thumbnail: "/assets/images/searchforaword.png",
+      thumbnail: "../../public/assets/images/searchforaword.png",
       githubUrl: "https://github.com/Morded/search",
       liveUrl: "https://searchforwords.vercel.app/",
     },
@@ -101,15 +101,15 @@ export const info = {
     },
     {
       name: "Javascript",
-      icon: "/assets/images/js.png"
+      icon: "/assets/images/js.svg"
     },
     {
       name: "CSS",
-      icon: "/assets/images/css.png"
+      icon: "/assets/images/css.svg"
     },
     {
       name: "HTML",
-      icon: "/assets/images/html.png"
+      icon: "/assets/images/html.svg"
     },
     {
       name: "SQL",
@@ -117,7 +117,7 @@ export const info = {
     },
     {
       name: "PHP",
-      icon: "/assets/images/php.png"
+      icon: "/assets/images/php.svg"
     },
     {
       name: "Delphi Object Pascal",
