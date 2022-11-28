@@ -1,9 +1,9 @@
 ---
-import { info } from "@data";
+import { info } from "/src/data/info";
 
-import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
-import MetaHead from "@components/general/MetaHead.astro";
-import Layout from "@layouts/Layout.astro";
+import ProjectsWrapper from "/src/components/general/ProjectsWrapper.astro";
+import MetaHead from "/src/components/general/MetaHead.astro";
+import Layout from "/src/layouts/Layout.astro";
 
 const Projects = info.projects.map((project) => project);
 ---
