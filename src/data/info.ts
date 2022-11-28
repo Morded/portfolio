@@ -29,7 +29,7 @@ export const info = {
       endDate: "2022",
       description: [
         "Building features and modules into WMS, ERP and Renting Systems on both Android and PC.",
-        "Worked on the new company website. And all kinds of uniquely developed systems.",
+        "Worked on the new company website and all kinds of uniquely developed systems.",
       ],
       link: "https://ionerp.hu",
       linkText: "See website"
