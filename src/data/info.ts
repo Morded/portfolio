@@ -28,8 +28,10 @@ export const info = {
       startDate: "2017",
       endDate: "2022",
       description: [
-        "Building features and modules into WMS, ERP and Renting Systems on both Android and PC.",
-        "Worked on the new company website and all kinds of uniquely developed systems.",
+        "During my time at the company I learned a lot.",
+        "My tasks included building new features and modules into WMS, ERP and Renting Systems or making changes to existing code on both Android and PC.",
+        "I partook in desinging app structure and designing the UI/UX.",
+        "I also worked on the new company website and all types of uniquely developed systems.",
       ],
       link: "https://ionerp.hu",
       linkText: "See website"
