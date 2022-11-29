@@ -91,6 +91,10 @@ export const info = {
       icon: "/assets/images/next.png"
     },
     {
+      name: "TailwindCSS",
+      icon: "/assets/images/tailwind.png"
+    },
+    {
       name: "Javascript",
       icon: "/assets/images/js.svg"
     },
