@@ -80,6 +80,27 @@ export const info = {
       githubUrl: "https://github.com/Morded/search",
       liveUrl: "https://searchforwords.vercel.app/",
     },
+    {
+      title: "QRCode",
+      isFeatured: true,
+      thumbnail: "/assets/images/qrcode.png",
+      githubUrl: "https://github.com/Morded/qrcode",
+      liveUrl: "https://qrcodefrontendmentor.vercel.app/",
+    },
+    {
+      title: "Notification dashboard",
+      isFeatured: true,
+      thumbnail: "/assets/images/notificationdashboard.png",
+      githubUrl: "https://github.com/Morded/notification-dashboard",
+      liveUrl: "https://notificationdashboard.vercel.app/",
+    },
+    {
+      title: "Expenses chart",
+      isFeatured: true,
+      thumbnail: "/assets/images/expenseschart.png",
+      githubUrl: "https://github.com/Morded/expenses-chart",
+      liveUrl: "https://expenseschart.vercel.app/",
+    },
   ],
   skills: [
     {
